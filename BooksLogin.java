@@ -9,7 +9,7 @@ public class BooksLogin {
         bu kısımda kullanıcından sistem'e üye olup olamdığına dair sorgulama yapılan panel'dir
         */
         System.out.println("----------------------------------");
-        System.out.println("|     Welcome The library Panel    |");
+        System.out.println("|     Welcome The Books Panel    |");
         System.out.println("|Do you have a subscription?(Y/N)|");
         char question=scan.nextLine().toUpperCase().charAt(0);
         if (question=='Y') {
