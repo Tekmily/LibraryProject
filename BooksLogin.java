@@ -13,6 +13,9 @@ public class BooksLogin {
         System.out.println("|Do you have a subscription?(Y/N)|");
         char question=scan.nextLine().toUpperCase().charAt(0);
         if (question=='Y') {
+            /*
+            burda kullanıcıya sisteme kayıtlı olup olmadığını gösteren bir seçenek sunuluyor.
+            */
             LoginPanel();
         }else {
 
